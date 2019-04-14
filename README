@@ -1,0 +1,27 @@
+## Test 2.
+
+You are to fix and create source files in this directory. When finished, tar this 
+directory and email it as an attachment to submit.o.bot@gmail.com
+
+
+1. Examine the program prog1.c. In this README file, in English, describe what is wrong with the code. Fix the code so it runs correctly (keep the name prog1.c).  (15xp)
+
+2. Examine the program prog2.c. In English, describe what is wrong with the code. Fix the code so it runs correctly (keep the name prog2.c). (15xp)
+
+3.  Write another program prog3.c using fork(). The child process should print "hello"; the parent process should print "goodbye". You should try to ensure that
+the child process always prints first; can you do this without calling wait() in
+the parent? (20xp)
+
+4. Write a program prog4.c that calls fork() and then calls some form of exec() to
+run the program /bin/ls. (20xp)
+
+5. We have a few lines in the source code prog5.c. Right now, when you press CTRL-C it just stops. What we want it to do is, when a user presses CTRL-C, we want to print:
+
+	Saving Critical File
+	Exiting
+
+before exiting. Change the code to make this change. (20xp)
+
+6. HackerRank Sock Challenge (https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup). Solve the problem on HackerRank. When done, take a screenshot of your HackerRank results showing your name, the problem name, and the points you received. Name your screenshot 'socks' with whatever image extension you used (socks.png, socks,jpg). Follow the image example shown in left.png in this folder. (10xp)
+
+7. HackerRank Counting Valleys (https://www.hackerrank.com/challenges/counting-valleys/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup). Same instructions as in 6. I will multiple the score by 2. 
